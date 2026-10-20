@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wallet.libs",
+    "module": "lightweightlibrary",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lightweightlibrary-1.0.0.aar",
+          "url": "lightweightlibrary-1.0.0.aar",
+          "size": 547330,
+          "sha512": "6bdff4d64132029402a9133e56c08d50198157d4e4ad0ca9133ca39d98ee9adea1039c43e992c9d433cd2f5d3046f05f1982709de743275113e549e34908cdf2",
+          "sha256": "c5778b554733b9d68186b75ecac13a1fff19c7be4191282bbe2abdfcedcd8d8b",
+          "sha1": "96595fcd095c9c02809c53eee46214aa1230a933",
+          "md5": "b07d462bec3a9428407f97de31e1e05a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lightweightlibrary-1.0.0.aar",
+          "url": "lightweightlibrary-1.0.0.aar",
+          "size": 547330,
+          "sha512": "6bdff4d64132029402a9133e56c08d50198157d4e4ad0ca9133ca39d98ee9adea1039c43e992c9d433cd2f5d3046f05f1982709de743275113e549e34908cdf2",
+          "sha256": "c5778b554733b9d68186b75ecac13a1fff19c7be4191282bbe2abdfcedcd8d8b",
+          "sha1": "96595fcd095c9c02809c53eee46214aa1230a933",
+          "md5": "b07d462bec3a9428407f97de31e1e05a"
+        }
+      ]
+    }
+  ]
+}
